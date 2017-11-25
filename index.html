@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Обучение Bootstrap</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- для адаптации в смартфонах -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Logo</a>
+        </div>
+
+        <div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Main page</a></li>
+                <li><a href="#">Adress</a></li>
+                <li><a href="#">Our goods</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>Hello, World!</h1>
+    <p>Как много девушек хороших, как много их красивых молодых!</p>
+</div>
+
+<div class="container-fluid"> <!--растянуть на всю длину-->
+    <h1>Hello, World!</h1>
+    <p>Как много девушек хороших, как много их красивых молодых!</p>
+</div>
+
+<div class="container-fluid"> <!--три разных блока-->
+    <h1>3 блока</h1>
+    <div class="row">
+        <div class="col-md-4" style="background-color: darkorange">Left</div>
+        <div class="col-md-4" style="background-color: darkred ">Middle</div>
+        <div class="col-md-4" style="background-color: aqua">Right</div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-9 col-md-4 col-lg-6" style="background-color: chartreuse">First column</div>
+    <div class="col-xs-12 col-sm-3 col-md-8 col-lg-6" style="background-color: indigo">Second column</div>
+</div>
+
+<h1>ItObstrel <small>Small text</small></h1>
+<h3>ItObstrel <small>Small text</small></h3>
+<h5>ItObstrel <small>Small text</small></h5>
+<h7>ItObstrel <small>Small text</small></h7>
+<p class="text-left">left align</p>
+<p class="text-center">center align</p>
+<p class="text-right">right align</p>
+<p class="text-justify">Равнение по обоим краям</p>
+<p class="text-nowrap">Текс без переносов</p>
+
+<button type="button" class="btn btn-primary" data-toggle="popover"
+        title="Сообщение" data-content="Ура, Bootstrap 4 работает">
+    Поднеси ко мне курсор
+</button>
+
+<!-- После подключения jQuery, Popper и Bootstrap JS -->
+<script>
+    $(function () {
+        $('[data-toggle="popover"]').popover({trigger:'hover'});
+    });
+</script>
+
+<blockquote>
+    Некая очень умная цитата
+    <footer>Стив Джобс!</footer>
+</blockquote>
+
+<p class="text-uppercase">верхний регистр</p>
+<p class="text-lowercase">нижний регистр</p>
+<p class="text-capitalize">заглавные буквы</p>
+
+<code>for</code>
+<code>print</code>
+<code>def</code>
+<br><br>
+
+<div class="container">
+    <pre>
+        <code>
+            for i in len(s):
+            print(i)
+        </code>
+    </pre>
+</div>
+
+</body>
+</html>

@@ -57,15 +57,9 @@
       <file leaf-file-name="WebSite.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebSite.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-              <folding>
-                <element signature="e#2375#2382#0" expanded="true" />
-                <element signature="e#2614#2621#0" expanded="true" />
-                <element signature="e#2898#2905#0" expanded="true" />
-                <element signature="e#3194#3201#0" expanded="true" />
-                <element signature="e#3290#3296#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="108">
+              <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,11 +94,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1061" />
-    <option name="y" value="259" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="845" />
+    <option name="y" value="365" />
     <option name="width" value="913" />
-    <option name="height" value="588" />
+    <option name="height" value="560" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -172,10 +166,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9277000" />
+    <option name="totallyTimeSpent" value="7126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1037" extended-state="6" />
+    <frame x="845" y="365" width="913" height="560" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11649974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -264,15 +258,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebSite.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding>
-            <element signature="e#2375#2382#0" expanded="true" />
-            <element signature="e#2614#2621#0" expanded="true" />
-            <element signature="e#2898#2905#0" expanded="true" />
-            <element signature="e#3194#3201#0" expanded="true" />
-            <element signature="e#3290#3296#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>

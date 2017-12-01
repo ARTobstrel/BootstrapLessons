@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Обучение Bootstrap</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- для адаптации в смартфонах -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+    <ul class="nav nav-tabs" role="tablist">
+        <li><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+        <li><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+        <li class="active"><a href="#message" role="tab" data-toggle="tab">Massages</a></li>
+        <li><a href="#settings" role="tab" data-toggle="tab">Settings</a></li>
+    </ul>
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade" id="home">Home tab</div>
+        <div role="tabpanel" class="tab-pane fade" id="profile">Prifile tab</div>
+        <div role="tabpanel" class="tab-pane active fade in" id="message">Message tab</div>
+        <div role="tabpanel" class="tab-pane fade" id="settings">Settings tab</div>
+    </div>
+</div>
+
+<div class="container">
+    <ul class="nav nav-pills" role="tablist">
+        <li><a href="#home" role="tab" data-toggle="pill">Home</a></li>
+        <li><a href="#profile" role="tab" data-toggle="pill">Profile</a></li>
+        <li class="active"><a href="#message" role="pill" data-toggle="tab">Massages</a></li>
+        <li><a href="#settings" role="tab" data-toggle="pill">Settings</a></li>
+    </ul>
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade" id="home">Home tab</div>
+        <div role="tabpanel" class="tab-pane fade" id="profile">Prifile tab</div>
+        <div role="tabpanel" class="tab-pane active fade" id="message">Message tab</div>
+        <div role="tabpanel" class="tab-pane fade" id="settings">Settings tab</div>
+    </div>
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</body>
